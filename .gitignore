@@ -11,3 +11,6 @@
 
 # ignore all executables and output files  
 *.exe
+
+# ignore gitignore 
+.gitignore
