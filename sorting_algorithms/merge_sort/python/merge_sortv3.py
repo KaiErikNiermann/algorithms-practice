@@ -12,6 +12,9 @@ def TopDownMerge(A, start, mid, end, B):
             B[k] = A[j]
             j += 1
 
+# best case O(n log n)
+# worst case O(n log n)
+# average case O(n log n)
 def TopDownSplitMerge(B, start, end, A):
     if (end - start <= 1):
         return

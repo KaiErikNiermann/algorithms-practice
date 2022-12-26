@@ -1,5 +1,8 @@
 {
     "files.associations": {
         "stdlib.h": "c"
+    },
+    "files.watcherExclude": {
+        "**/target": true
     }
 }
