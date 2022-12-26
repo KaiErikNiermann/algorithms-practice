@@ -1,0 +1,13 @@
+# basic gitignore template
+# ignore .vscode folder 
+.vscode
+
+#ignore .metals folder 
+.metals
+
+#ignore bsp and scala-build folder
+.bsp
+.scala-build
+
+# ignore all executables and output files  
+*.exe
