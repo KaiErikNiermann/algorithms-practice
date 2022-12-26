@@ -2,7 +2,7 @@
 
 ### Current list 
 
-| Languages | **insertion sort** | **merge sort** | **heap sort** |
+|  | **insertion sort** | **merge sort** | **heap sort** |
 | --        |  --                | --  | -- |
 | C         | ✅                 | ✅ | ✅ |
 | Python    | ✅                 | ✅ | ✅ |
