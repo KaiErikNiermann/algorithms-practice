@@ -2,11 +2,11 @@
 
 ### Current list 
 
-|  | **insertion sort** | **merge sort** | **heap sort** |
-| --        |  --                | --  | -- |
-| C         | ✅                 | ✅ | ✅ |
-| Python    | ✅                 | ✅ | ✅ |
-| Scala     | ✅                 | ✅ | ✅ |
+|  | **insertion sort** | **merge sort** | **heap sort** | **quick sort**
+| --        |  --                | --  | -- | -- |
+| C         | ✅                 | ✅ | ✅ | ✅ |
+| Python    | ✅                 | ✅ | ✅ | ✅ |
+| Scala     | ✅                 | ✅ | ✅ | ✅ |
 
 ### Notes
 My focus here was to have a collection of algorithms written in different langauges as a means to understand the algorithms while at the same time praciticing programming languages.
