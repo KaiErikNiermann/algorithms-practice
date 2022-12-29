@@ -7,6 +7,7 @@
 | C         | ✅                 | ✅ | ✅ | ✅ |
 | Python    | ✅                 | ✅ | ✅ | ✅ |
 | Scala     | ✅                 | ✅ | ✅ | ✅ |
+| TypeScript | ❌                | ✅ | ❌ | ❌ | 
 
 ### Notes
 My focus here was to have a collection of algorithms written in different langauges as a means to understand the algorithms while at the same time praciticing programming languages.
