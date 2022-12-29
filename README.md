@@ -1,4 +1,4 @@
-# algorithms (C and Python)
+# algorithms and datastructures collection
 
 ### Current list 
 
