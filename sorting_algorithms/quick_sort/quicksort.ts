@@ -2,7 +2,7 @@ function partition(A : Array<number>, start : number, end : number) {
     let pivot : number = A[end]
     let i : number = start - 1
     for (let j = start; j < end; j++) {
-        if (A[j] <= pivot) {
+        if (A[j] > pivot) { 
             i++
             [A[i], A[j]] = [A[j], A[i]]
         }
