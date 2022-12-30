@@ -7,10 +7,10 @@
 | C         | ✅                 | ✅ | ✅ | ✅ |
 | Python    | ✅                 | ✅ | ✅ | ✅ |
 | Scala     | ✅                 | ✅ | ✅ | ✅ |
-| TypeScript | ❌                | ✅ | ❌ | ❌ | 
+| TypeScript | ❌                | ✅ | ❌ | ✅ | 
 
 ### Notes
-My focus here was to have a collection of algorithms written in different langauges as a means to understand the algorithms while at the same time praciticing programming languages.
+My focus here was to have a collection of algorithms written in different langauges as a means to understand the algorithms while at the same time praciticing programming languages. Additionally I wanted to focus on simplicity and clarity of each implementation.
 
 Some algorithms have different versions, usually earlier versions are less clean but sometimes easier to understand implementations.
 
