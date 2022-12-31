@@ -9,10 +9,14 @@
 | Scala     | ✅                 | ✅ | ✅ | ✅ |
 | TypeScript | ❌                | ✅ | ❌ | ❌ | 
 
+currently not implemented in any lang 
 **datastructures**
 |  | **linked list** | **stack** | **binary tree** | **binary search tree** | **heap** | **hash table** | 
 | --        |  --                | --  | -- | -- | -- | -- |
-| C         | ❌               | ❌ | ❌ | ❌ | ❌ | ❌ | 
+| C         | ❌               | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Python    | ❌               | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Scala     | ❌               | ❌ | ❌ | ❌ | ❌ | ❌ |
+| TypeScript | ❌               | ❌ | ❌ | ❌ | ❌ | ❌ | 
 
 ### Notes
 My focus here was to have a collection of algorithms written in different langauges as a means to understand the algorithms while at the same time praciticing programming languages. Additionally I wanted to focus on simplicity and clarity of each implementation.

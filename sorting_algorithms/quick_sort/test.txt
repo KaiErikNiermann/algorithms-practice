@@ -1,0 +1,9 @@
+
+function partition(hi, lo, pivot)
+    
+
+function quicksort(a)
+    if(a.length == 1) 
+        return list
+    
+    partition(hi, lo, pivot)
