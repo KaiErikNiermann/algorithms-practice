@@ -11,7 +11,7 @@
 
 **datastructures**
 |  | **linked list** | **stack** | **binary tree** | **binary search tree** | **heap** | **hash table** | **graph** |
-| --        |  --                | --  | -- | -- | -- | -- | -- | -- |
+| --        |  --                | --  | -- | -- | -- | -- | -- |
 | C         | ❌               | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 ### Notes
