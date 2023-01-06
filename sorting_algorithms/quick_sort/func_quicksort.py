@@ -1,3 +1,4 @@
+# note : not in place, but more readable imo 
 def partition_sort(xs): 
     if not xs: return xs
 
