@@ -99,6 +99,7 @@ void delete(LinkedList *list, Node *node) {
         
         if(temp != NULL) temp->next = node->next;
     }
+    list->size--;
     free(node);
 }
 

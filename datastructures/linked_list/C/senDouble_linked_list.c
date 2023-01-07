@@ -32,17 +32,28 @@ Node *nodeConstructor(LinkedList *list, void *data) {
     return node;
 }
 
+void insertBefore(LinkedList *list, void *data, Node *nextNode) {
+    Node *node = nodeConstructor(list, data);
+    node->next = nextNode;
+    node->prev = nextNode->prev;
+    nextNode->prev->next = node;
+    nextNode->prev = node;
+    list->size++;
+}
+
 void insertAfter(LinkedList *list, void *data, Node *prevNode) {
     Node *node = nodeConstructor(list, data);
     node->next = prevNode->next;
     node->prev = prevNode;
     prevNode->next->prev = node;
     prevNode->next = node;
+    list->size++;
 }
 
 void deleteNode(LinkedList *list, Node *node) {
     node->prev->next = node->next;
     node->next->prev = node->prev;
+    list->size--;
     free(node);
 }
 
@@ -50,7 +61,6 @@ Node *getNode(LinkedList *list, void *data, COMPARE compare) {
     Node *node = list->sentinel->next;
     while(node != list->sentinel) {
         if(compare(node->data, data)) return node;
-        
         node = node->next;
     }
     return NULL;
@@ -75,16 +85,24 @@ int main() {
     insertAfter(&list, &b, list.sentinel);
     insertAfter(&list, &c, list.sentinel);
 
-    // print the list
-    printList(&list);
+    // insert node after 3
+    int d = 4; 
+    insertAfter(&list, &d, list.sentinel->next);
+    printList(&list); // 3 -> 4 -> 2 -> 1
+
+    // insert a node before 3
+    int e = 5;
+    insertBefore(&list, &e, list.sentinel->next);
+    printList(&list); // 5 -> 3 -> 4 -> 2 -> 1
 
     // delete a node
     deleteNode(&list, list.sentinel->next);
-    printList(&list);
+    printList(&list); // 3 -> 4 -> 2 -> 1
 
     // get a node
     Node *node = getNode(&list, &b, compareInt);
     printf("%d\n", *(int *)node->data);
+
 
     return 0;
 }
