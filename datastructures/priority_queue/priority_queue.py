@@ -1,5 +1,6 @@
 from math import inf
 
+# O(lg n) 
 def maxHeapify(a, heapSize, i):
     l = 2 * i + 1
     r = 2 * i + 2
@@ -12,10 +13,12 @@ def maxHeapify(a, heapSize, i):
         a[i], a[largest] = a[largest], a[i]
         maxHeapify(a, heapSize, largest)
 
+# O(n) | Note ~ intuitivley O(n lg n) but O(n) is a tighter bound 
 def buildMaxHeap(a, heapSize):
     for i in range(int(heapSize/2)-1, -1, -1):
         maxHeapify(a, heapSize, i)
 
+# O(lg n)
 def extractMax(a, heapSize):
     max_val = a[0]                
     a[0] = a[heapSize - 1]         
@@ -23,12 +26,18 @@ def extractMax(a, heapSize):
     maxHeapify(a, heapSize - 1, 0) 
     return max_val
 
+# O(1)
+def maximum(a):
+    return a[0]
+
+# O(lg n)
 def insert(a, key, heapSize):
     k = key
     key = -inf      # -inf to avoid error in increaseKey
     a.append(key)
     increaseKey(a, len(a) - 1, k)
 
+# O(lg n)
 def increaseKey(a, i, key):
     if key < a[i]: # only required for modifying existing key
         print("error: New key is smaller than current key")
@@ -38,6 +47,7 @@ def increaseKey(a, i, key):
         a[i], a[i // 2] = a[i // 2], a[i]
         i = i // 2
 
+# O(lg n)
 def deleteKey(a, key, heapSize):
     for i in range(0, len(a)-1):
         if a[i] == key:

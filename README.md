@@ -2,19 +2,19 @@
 
 ### Current list 
 **algorithms**
-|  | **insertion sort** | **merge sort** | **heap sort** | **quick sort** | **counting sort** 
-| --        |  --                | --  | -- | -- | -- |
-| C         | ✅                 | ✅ | ✅ | ✅ | ✅ |
-| Python    | ✅                 | ✅ | ✅ | ✅ | ✅ |
-| Scala     | ✅                 | ✅ | ✅ | ✅ | ❌ |
-| TypeScript | ❌                | ✅ | ❌ | ❌ | ❌ |
+|  | **insertion sort** | **merge sort** | **heap sort** | **quick sort** | **counting sort** | **bucket sort**
+| --        |  --                | --  | -- | -- | -- | -- |
+| C         | ✅                 | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Python    | ✅                 | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Scala     | ✅                 | ✅ | ✅ | ✅ | ❌ | ✅ |
+| TypeScript | ❌                | ✅ | ❌ | ❌ | ❌ | ❌ |
 
 currently not implemented in any lang 
 **datastructures**
 |  | **linked list** | **stack** | **binary tree** | **binary search tree** | **priority queue** | **hash table** | 
 | --        |  --                | --  | -- | -- | -- | -- |
 | C         | ❌               | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Python    | ❌               | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Python    | ❌               | ❌ | ❌ | ❌ | ✅ | ❌ |
 | Scala     | ❌               | ❌ | ❌ | ❌ | ❌ | ❌ |
 | TypeScript | ❌               | ❌ | ❌ | ❌ | ❌ | ❌ | 
 
