@@ -30,17 +30,3 @@ sorted_array = insertion_sort_fast(A)
 
 for i in sorted_array:
     print(i)
-
-
-
-def insertion_sort(A):
-    i = 1
-    while (i < len(A)):
-        key = A[i]
-        j = i - 1
-        while ( j >= 0 and A[j] < key):
-            A[j + 1] = A[j] # swap operation 
-            j -= 1
-
-        A[j + 1] = key
-        i += 1
