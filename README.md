@@ -3,11 +3,11 @@
 ### Current list 
 **algorithms**
 |  | **insertion sort** | **merge sort** | **heap sort** | **quick sort** | **counting sort** | **bucket sort**
-| --        |  --                | --  | -- | -- | -- | -- |
-| C         | ✅  [code](https://github.com/KaiErikNiermann/algorithms-practice/blob/main/sorting_algorithms/insertion_sort/insertion_sort.c)               | ✅ [code] | ✅ | ✅ | ✅ | ✅ |
-| Python    | ✅ [code](https://github.com/KaiErikNiermann/algorithms-practice/blob/main/sorting_algorithms/insertion_sort/insertion_sort.py)                | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Scala     | ✅ [code](https://github.com/KaiErikNiermann/algorithms-practice/blob/main/sorting_algorithms/insertion_sort/insertion_sort.scala)                | ✅ | ✅ | ✅ | ❌ | ✅ |
-| TypeScript | ❌                | ✅ | ❌ | ❌ | ❌ | ❌ |
+| --         |  --                | --  | -- | -- | -- | -- |
+| C          | ✅ [code](https://github.com/KaiErikNiermann/algorithms-practice/blob/main/sorting_algorithms/insertion_sort/insertion_sort.c)               | ✅ [code](https://github.com/KaiErikNiermann/algorithms-practice/blob/main/sorting_algorithms/merge_sort/C/merge_sortv2.c)       | ✅ | ✅ | ✅ | ✅ |
+| Python     | ✅ [code](https://github.com/KaiErikNiermann/algorithms-practice/blob/main/sorting_algorithms/insertion_sort/insertion_sort.py)              | ✅ [code](https://github.com/KaiErikNiermann/algorithms-practice/blob/main/sorting_algorithms/merge_sort/python/merge_sortv3.py) | ✅ | ✅ | ✅ | ✅ |
+| Scala      | ✅ [code](https://github.com/KaiErikNiermann/algorithms-practice/blob/main/sorting_algorithms/insertion_sort/insertion_sort.scala)           | ✅ [code](https://github.com/KaiErikNiermann/algorithms-practice/blob/main/sorting_algorithms/merge_sort/scala/merge_sort.scala) | ✅ | ✅ | ❌ | ✅ |
+| TypeScript | ❌                                                                                                                                           | ✅ [code](https://github.com/KaiErikNiermann/algorithms-practice/blob/main/sorting_algorithms/merge_sort/TS/merge_sort.ts)       | ❌ | ❌ | ❌ | ❌ |
 
 currently not implemented in any lang 
 **datastructures**
