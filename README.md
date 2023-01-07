@@ -4,7 +4,7 @@
 **algorithms**
 |  | **insertion sort** | **merge sort** | **heap sort** | **quick sort** | **counting sort** | **bucket sort**
 | --        |  --                | --  | -- | -- | -- | -- |
-| C         | ✅                 | ✅ | ✅ | ✅ | ✅ | ✅ |
+| C         | ✅  [go](https://github.com/KaiErikNiermann/algorithms-practice/blob/main/sorting_algorithms/insertion_sort/insertion_sort.c)               | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Python    | ✅                 | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Scala     | ✅                 | ✅ | ✅ | ✅ | ❌ | ✅ |
 | TypeScript | ❌                | ✅ | ❌ | ❌ | ❌ | ❌ |
