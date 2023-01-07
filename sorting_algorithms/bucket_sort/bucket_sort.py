@@ -24,3 +24,4 @@ def insertion_sort(A):
 
 A = [0.897, 0.565, 0.656, 0.1234, 0.665, 0.3434]
 print(bucket_sort(A))
+

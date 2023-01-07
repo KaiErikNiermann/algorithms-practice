@@ -4,7 +4,7 @@
 **algorithms**
 |  | **insertion sort** | **merge sort** | **heap sort** | **quick sort** | **counting sort** | **bucket sort**
 | --        |  --                | --  | -- | -- | -- | -- |
-| C         | ✅                 | ✅ | ✅ | ✅ | ✅ | ❌ |
+| C         | ✅                 | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Python    | ✅                 | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Scala     | ✅                 | ✅ | ✅ | ✅ | ❌ | ✅ |
 | TypeScript | ❌                | ✅ | ❌ | ❌ | ❌ | ❌ |

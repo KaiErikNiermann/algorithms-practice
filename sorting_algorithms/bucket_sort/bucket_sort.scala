@@ -16,15 +16,15 @@ object bucket_sort extends App {
     }
 
     def insertion_sort(A: Array[Double]) : Array[Double] = {
-        for (i <- 1 until A.length) {
-            var j = i
-            while (j > 0 && A(j) < A(j - 1)) {
-                val temp = A(j)
-                A(j) = A(j - 1)
-                A(j - 1) = temp
+        (1 until A.length).foreach(i => {
+            val key : Double = A(i)
+            var j : Int = i - 1
+            while (j >= 0 && A(j) > key) {
+                A(j + 1) = A(j) 
                 j -= 1
             }
-        }
+            A(j + 1) = key 
+        })
         A
     }
 
