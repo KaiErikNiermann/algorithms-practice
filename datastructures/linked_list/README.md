@@ -1,0 +1,2 @@
+## Notes 
+- For C I strongly recommend "Understanding and Using C Pointers" by Richard Reese. Its a great book for understanding pointers and memory management in C. The linked list implementation is based primarily off the book. 

@@ -13,9 +13,9 @@ currently not implemented in any lang
 **datastructures**
 |  | **linked list** | **stack** | **binary tree** | **binary search tree** | **priority queue** | **hash table** | 
 | --        |  --                | --  | -- | -- | -- | -- |
-| C         | ❌               | ❌ | ❌ | ❌ | ❌ | ❌ |
+| C         | ✅               | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Python    | ❌               | ❌ | ❌ | ❌ | ✅ | ❌ |
-| Scala     | ❌               | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Scala     | ❌               | ✅ | ❌ | ❌ | ❌ | ❌ |
 | TypeScript | ❌               | ❌ | ❌ | ❌ | ❌ | ❌ | 
 
 ### Notes
