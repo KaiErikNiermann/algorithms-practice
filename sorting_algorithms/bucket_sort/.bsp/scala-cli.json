@@ -1,0 +1,16 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/home/applesauce/.cache/scalacli/local-repo/bin/scala-cli/scala-cli",
+    "bsp",
+    "--json-options",
+    "/home/applesauce/algorithms/sorting_algorithms/bucket_sort/.scala-build/ide-options-v2.json",
+    "/home/applesauce/algorithms/sorting_algorithms/bucket_sort/bucket_sort.scala"
+  ],
+  "version": "0.1.19",
+  "bspVersion": "2.1.0-M3",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
