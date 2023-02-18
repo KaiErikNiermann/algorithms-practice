@@ -33,7 +33,7 @@ void buildMaxHeap(int H[], int heapSize) {
 
 // builds the max heap then sorts the array
 void heapsort(int H[], int heapSize) {
-buildMaxHeap(H, heapSize);
+    buildMaxHeap(H, heapSize);
     for (int i = heapSize - 1; i >= 0; i--) {
         swap(H, 0, i);
         maxHeapify(H, i, 0);

@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch merge_sort",
+            "request": "launch",
+            "mainClass": "sorting_algorithms.merge_sort.java.merge_sort",
+            "projectName": "algorithms-practice_83189505"
+        },
+        {
             "type": "gdb",
             "request": "launch",
             "name": "GDB",
@@ -18,7 +25,6 @@
             "program": "${workspaceFolder}/${command:AskForProgramName}",
             "stopOnEntry": true
         }
-
     ]
 
 }

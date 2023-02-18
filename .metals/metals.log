@@ -1892,3 +1892,350 @@ INFO: Unsupported notification method: $/setTrace
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.lang.Thread.run(Thread.java:833)
 [0m
+2023.02.16 19:02:29 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/applesauce/algorithms-practice/.metals/lsp.trace.json or /root/.cache/metals/lsp.trace.json[0m
+2023.02.16 19:02:30 INFO  logging to file /home/applesauce/algorithms-practice/.metals/metals.log[0m
+2023.02.16 19:02:30 INFO  Started: Metals version 0.11.10 in workspace '/home/applesauce/algorithms-practice' for client Visual Studio Code 1.75.0.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.16 19:02:32 INFO  time: initialize in 1.97s[0m
+2023.02.16 19:02:35 WARN  Build server is not auto-connectable.[0m
+2023.02.16 19:02:35 WARN  no build tool detected in workspace '/home/applesauce/algorithms-practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.02.16 19:02:35 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/counting_sort/counting_sort.scala[0m
+2023.02.16 19:02:40 INFO  no build target found for /home/applesauce/algorithms-practice/sorting_algorithms/counting_sort/counting_sort.scala. Using presentation compiler with project's scala-library version: 3.2.1[0m
+Feb 16, 2023 7:03:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 16, 2023 7:03:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.02.16 19:07:01 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+Feb 16, 2023 7:07:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+Feb 16, 2023 7:07:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+2023.02.16 19:07:13 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:07:20 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:07:33 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:07:38 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+Feb 16, 2023 7:07:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.02.16 19:07:51 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:08:12 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:08:13 WARN  Running javac-semanticdb failed for file:///home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java. Output:
+/home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java:1: error: '{' expected
+public class sorting_algorithms.merge_sort {
+                               ^
+1 error[0m
+2023.02.16 19:08:17 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:09:02 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:09:59 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:09:59 WARN  Running javac-semanticdb failed for file:///home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java. Output:
+/home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java:6: error: repeated modifier
+    public static void main(String[] args) {
+    ^
+/home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java:6: error: repeated modifier
+    public static void main(String[] args) {
+           ^
+2 errors[0m
+Feb 16, 2023 7:10:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 280
+2023.02.16 19:10:42 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:10:44 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:11:18 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+Feb 16, 2023 7:11:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 368
+Feb 16, 2023 7:11:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 371
+2023.02.16 19:11:27 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:11:41 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:11:51 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:12:02 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:12:04 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:12:12 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:12:12 WARN  Running javac-semanticdb failed for file:///home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java. Output:
+/home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java:29: error: ';' expected
+        int[] B = A.clone()
+                           ^
+1 error[0m
+2023.02.16 19:12:13 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:12:18 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:12:22 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:12:25 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+Feb 16, 2023 7:12:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 571
+2023.02.16 19:12:37 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.16 19:12:51 INFO  shutting down Metals[0m
+2023.02.18 03:48:24 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/applesauce/algorithms-practice/.metals/lsp.trace.json or /root/.cache/metals/lsp.trace.json[0m
+2023.02.18 03:48:25 INFO  logging to file /home/applesauce/algorithms-practice/.metals/metals.log[0m
+2023.02.18 03:48:25 INFO  Started: Metals version 0.11.10 in workspace '/home/applesauce/algorithms-practice' for client Visual Studio Code 1.75.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.18 03:48:28 INFO  time: initialize in 2.72s[0m
+2023.02.18 03:48:30 WARN  Build server is not auto-connectable.[0m
+2023.02.18 03:48:30 WARN  no build tool detected in workspace '/home/applesauce/algorithms-practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.02.18 03:48:31 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.18 03:48:32 INFO  time: code lens generation in 1.08s[0m
+2023.02.18 03:48:32 INFO  time: code lens generation in 1.16s[0m
+2023.02.18 03:49:08 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:49:10 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.18 03:49:12 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:49:29 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:49:33 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+Feb 18, 2023 3:49:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 109
+2023.02.18 03:49:54 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:49:55 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:50:11 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:50:22 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:50:23 WARN  Running javac-semanticdb failed for file:///home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java. Output:
+/home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java:5: error: ';' expected
+        System.out.prinln("Hello, World!")
+                                          ^
+1 error[0m
+2023.02.18 03:50:24 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:50:30 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:50:42 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:50:57 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test2.java[0m
+2023.02.18 03:51:14 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test2.java[0m
+2023.02.18 03:51:15 WARN  Running javac-semanticdb failed for file:///home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test2.java. Output:
+/home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test2.java:1: error: ';' expected
+package sorting_algorithms.merge_sort.java
+                                          ^
+1 error[0m
+2023.02.18 03:51:18 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test2.java[0m
+2023.02.18 03:51:51 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:51:52 WARN  Running javac-semanticdb failed for file:///home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java. Output:
+/home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java:4: error: '.' expected
+import test2;
+            ^
+1 error[0m
+2023.02.18 03:53:49 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test2.java[0m
+2023.02.18 03:53:51 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:53:51 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:54:11 WARN  Cannot tokenize Java file file:///home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:226)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:188)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:136)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1275)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+Feb 18, 2023 3:54:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+java.util.concurrent.CompletionException: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.next$1(JavaFoldingRangeExtractor.scala:100)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:147)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1809)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.02.18 03:54:11 WARN  Cannot tokenize Java file file:///home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:60)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.02.18 03:54:11 WARN  Cannot tokenize Java file file:///home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.SuperMethodCodeLens.codeLenses(SuperMethodCodeLens.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.02.18 03:54:11 WARN  Cannot tokenize Java file file:///home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:226)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:188)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:136)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1275)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+Feb 18, 2023 3:54:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+java.util.concurrent.CompletionException: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.next$1(JavaFoldingRangeExtractor.scala:100)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:147)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1809)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.02.18 03:54:12 WARN  Cannot tokenize Java file file:///home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:60)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.02.18 03:54:12 WARN  Cannot tokenize Java file file:///home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.SuperMethodCodeLens.codeLenses(SuperMethodCodeLens.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.02.18 03:54:23 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:54:23 WARN  Running javac-semanticdb failed for file:///home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java. Output:
+/home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java:4: error: '.' expected
+import test2;
+            ^
+1 error[0m
+2023.02.18 03:54:31 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:54:38 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test2.java[0m
+2023.02.18 03:54:46 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/Functions.java[0m
+2023.02.18 03:54:48 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.18 03:54:56 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java[0m
+2023.02.18 03:54:56 WARN  Running javac-semanticdb failed for file:///home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java. Output:
+/home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/test.java:4: error: '.' expected
+import Functions;
+                ^
+1 error[0m
+2023.02.18 03:56:23 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m

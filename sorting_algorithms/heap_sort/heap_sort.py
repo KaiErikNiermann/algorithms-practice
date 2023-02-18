@@ -13,6 +13,7 @@ def maxHeapify(a, heapSize, i):
         largest = l
     if r < heapSize and a[r] > a[largest]:
         largest = r
+        
     if largest != i:
         a[i], a[largest] = a[largest], a[i]
         maxHeapify(a, heapSize, largest)

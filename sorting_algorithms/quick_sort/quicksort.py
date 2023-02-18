@@ -1,6 +1,7 @@
 def partition(A, start, end):
     pivot = A[end]
     i = start - 1
+    array = A[start:end + 1]
     for j in range(start, end):
         if A[j] <= pivot:
             i += 1
@@ -11,6 +12,7 @@ def partition(A, start, end):
 def quicksort(A, start, end):
     if start < end:
         p = partition(A, start, end)
+
         quicksort(A, start, p - 1)
         quicksort(A, p + 1, end)
 
