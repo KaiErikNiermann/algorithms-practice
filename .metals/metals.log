@@ -2239,3 +2239,4 @@ import Functions;
                 ^
 1 error[0m
 2023.02.18 03:56:23 WARN  no build target for: /home/applesauce/algorithms-practice/sorting_algorithms/merge_sort/java/merge_sort.java[0m
+2023.02.18 03:58:40 INFO  shutting down Metals[0m
