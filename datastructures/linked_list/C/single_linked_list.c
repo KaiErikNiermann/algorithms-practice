@@ -114,6 +114,9 @@ int main() {
     addHead(&list, &b);
     addHead(&list, &c);
     
+    // print the list
+    printList(&list);
+
     addTail(&list, &a);
     addTail(&list, &b);
     addTail(&list, &c);
